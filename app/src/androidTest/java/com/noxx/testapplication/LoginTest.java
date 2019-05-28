@@ -39,7 +39,7 @@ public class LoginTest {
 
         device.findObject(By.res(packageName,"btnLogin")).click();
         device.wait(Until.findObject(By.res(packageName,"message").textContains("Необходимо ввести")), 2000);
-        device.findObject(By.res(packageName, "positive")).click()
+        device.findObject(By.res(packageName, "positive")).click();
 
 
 
